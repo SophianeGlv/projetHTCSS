@@ -5,13 +5,16 @@
  
    html{
     font-size: 62.5%; /*16 multipliter 62.5% = 10 rem */
+    background:linear-gradient(to top,rgba(0,0,0,.6) 50%,rgba(0,0,0,.6) 50%),
+     url(../asset/green2.jpg)no-repeat fixed center center / cover;
+    
 }
 body{
     font: 1.6rem "sans-serif", "Montserrat";
     margin: 0;
     letter-spacing: 0.1rem; /* 1 px */
     line-height: 1.6;
-    background-color: var(--bgcolor-theme);
+   /* background-color: var(--bgcolor-theme); */
 }
 h1 ,h2 ,h3 ,p ,figure ,ul{
     margin: 0;
